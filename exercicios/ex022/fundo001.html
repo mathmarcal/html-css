@@ -7,15 +7,35 @@
     <style>
         .quadrado{
             border: 1px solid black;
+            width: 300px;
+            height: 300px;
+            margin-right: 15px;
+            display: inline-block;
+        }
+
+        #q1{
+            background-color: lightblue;
+        }
+
+        #q2{
+            background-image: linear-gradient(to right, blue, white);
+        }
+
+        #q3{
+            background-image: url("imagens/pattern003.png");
+        }
+
+        #q1:hover{
+            background-image: url("imagens/wallpaper001.jpg");
         }
     </style>
 </head>
 <body>
-    <div class="quadrado"></div>
+    <div class="quadrado" id="q1"></div>
 
-    <div class="quadrado"></div>
+    <div class="quadrado" id="q2"></div>
     
-    <div class="quadrado"></div>
+    <div class="quadrado" id="q3"></div>
 
 </body>
 </html>
