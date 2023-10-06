@@ -97,6 +97,50 @@ footer{
     text-align: center;
 }
 
+aside.normal{
+    padding: 20px;
+
+}
+
+.extra{
+    background-color: var(--cor2);
+    max-width: 700px;
+    min-width: 320px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.181);
+}
+
+.extra a{
+    color: var(--cor0);
+}
+
+.extra > h2{
+    background-color: rgba(128, 128, 128, 0.239);
+    color: var(--cor1);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+ol{
+    list-style-position: inside;
+    color: var(--cor1);
+    columns: 2;
+}
+
+aside > .extra > ol > li > a:hover{
+    text-decoration: underline;
+}
+
+aside > .extra > ol > li > a::after{
+   
+}
+
 footer > p{
     padding: 10px 0px;
 
@@ -106,6 +150,3 @@ footer > p > a:hover{
     text-decoration: underline;
 }
 
-footer > p > a::after{
-    content: '\00A0\1F517';
-}
